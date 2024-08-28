@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="identifiant_res_company_page_new_form_view" model="ir.ui.view">
+            <field name="name">rescompanyidentifiantpage.form</field>
+            <field name="model">res.company</field>
+            <field name="inherit_id" ref="base.view_company_form"/>
+            <field name="arch" type="xml">
+
+              <xpath expr="//page[1]" position="after">
+                <page string="Identifiants">
+                  
+                    <group>
+                        <field name="numero_matricule_fiscal" string="Numéro matricule fiscal" style="width:20%%"/>
+                        <field name="cle_matricule_fiscal" string="Clé du matricule fiscal" style="width:20%%"/>
+                        <field name="code_tva" string="code TVA" style="width:20%%"/>
+                        <field name="code_categorie" string="Code catégorie" style="width:20%%"/>
+                        <field name="num_etab_secondaire" string="N° établissement secondaire" style="width:20%%"/>
+                    </group>
+                  
+                                
+                </page>
+              </xpath>
+
+            </field>
+        </record>
+
+
+
+    </data>
+</odoo>
