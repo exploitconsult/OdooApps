@@ -5,6 +5,7 @@
     'version': '15.0.0.0.0',
     'category': 'BASE',
     'sequence': 75,
+    'author': 'Exploit Consult',
     'summary': 'IDENTIFIANTS DES SOCIETES',
     'description': "Générer des factures depuis les commandes de point de vente",
     'licence': 'LGPL-3',
