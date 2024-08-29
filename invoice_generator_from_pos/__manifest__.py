@@ -8,7 +8,7 @@
     'author': 'Exploit Consult',
     'summary': 'IDENTIFIANTS DES SOCIETES',
     'description': "Générer des factures depuis les commandes de point de vente",
-    'licence': 'LGPL-3',
+    'license': 'LGPL-3',
     'website': 'https://www.exploit-consult.com',
 
     # any module necessary for this one to work correctly
