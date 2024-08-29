@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+            <record id="identifiant_res_partner_page_new_form_view" model="ir.ui.view">
+            <field name="name">respartneridentifiantpage.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+
+              <xpath expr="//page[@name='internal_notes']" position="after">
+                <page string="Identifiants">
+                  <group>
+                      <group>
+                        <field name="type_identifiant" string="Type identifiant"/>
+                      </group>
+                      <group>
+                        <field name="numero_matricule_fiscal" string="Numéro matricule fiscal" attrs="{'invisible':[('type_identifiant', '!=', '1')]}"/>
+                        <field name="cle_matricule_fiscal" string="Clé du matricule fiscal" attrs="{'invisible':[('type_identifiant', '!=', '1')]}"/>
+                        <field name="code_tva" string="code TVA" attrs="{'invisible':[('type_identifiant', '!=', '1')]}"/>
+                        <field name="code_categorie" string="Code catégorie" attrs="{'invisible':[('type_identifiant', '!=', '1')]}"/>
+                        <field name="num_etab_secondaire" string="N° établissement secondaire" attrs="{'invisible':[('type_identifiant', '!=', '1')]}"/>
+
+
+                        <field name="cin" string="Numéro de la carte d’identité nationale" attrs="{'invisible':[('type_identifiant', '!=', '2')], 'required':[('type_identifiant', '=', '2')]}"/>
+                        <field name="carte_sejour" string=" Numéro de la carte du séjour pour les étrangers " attrs="{'invisible':[('type_identifiant', '!=', '3')], 'required':[('type_identifiant', '=', '3')]}"/>
+                        <field name="id_non_domicile_ni_etablie" string="Identifiant des personnes non domiciliées ni établies en Tunisie " attrs="{'invisible':[('type_identifiant', '!=', '4')], 'required':[('type_identifiant', '=', '4')]}"/>
+                    </group>
+                  </group>
+                                
+                </page>
+              </xpath>
+
+            </field>
+        </record>
+
+
+    </data>
+</odoo>
