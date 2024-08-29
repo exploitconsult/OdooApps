@@ -6,6 +6,7 @@
     'version': '15.0.0.0.0',
     'category': 'BASE',
     'sequence': 75,
+    'author': 'Exploit Consult',
     'summary': 'IDENTIFIANTS DES SOCIETES',
     'description': "Ajouter des identifants pour les sociétés comme la matricule fiscal, le code TVA, le code catégorie "
                    "le numéro établissement secondaire... etc ",
