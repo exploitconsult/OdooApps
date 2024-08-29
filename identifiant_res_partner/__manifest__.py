@@ -6,6 +6,7 @@
     'version': '1.1',
     'category': 'BASE',
     'sequence': 75,
+    'author': 'Exploit Consult',
     'summary': 'IDENTIFIANTS DES SOCIETES',
     'description': "Ajouter des identifants pour les contact comme la matricule fiscal, le code TVA, le code catégorie "
                    "le numéro établissement secondaire , CIN, Carte sejour... etc ",
