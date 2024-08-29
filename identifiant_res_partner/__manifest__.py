@@ -10,7 +10,7 @@
     'summary': 'IDENTIFIANTS DES SOCIETES',
     'description': "Ajouter des identifants pour les contact comme la matricule fiscal, le code TVA, le code catégorie "
                    "le numéro établissement secondaire , CIN, Carte sejour... etc ",
-    'licence': 'LGPL-3',
+    'license': 'LGPL-3',
     'website': 'https://www.exploit-consult.com',
     'images': [
 
